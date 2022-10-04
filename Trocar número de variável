@@ -1,0 +1,10 @@
+using static System.Console;
+int a, b,c;
+a = 10;
+b = 20;
+WriteLine("O valor da variável A é {0}, e de B {1}", a, b);
+
+c = a;
+a = b;
+b = c;
+WriteLine("O valor da variável A é {0}, e de B {1}", a, b);
